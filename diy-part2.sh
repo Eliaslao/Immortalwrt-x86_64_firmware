@@ -91,7 +91,7 @@ sed -i 's/ImmortalWrt/OpenWrt/g' package/base-files/files/bin/config_generate
 #cat feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_network/diagnostics.htm
 
 # 修改系统信息
-cp -f $GITHUB_WORKSPACE/99-default-settings package/emortal/default-settings/files/99-default-settings
+# cp -f $GITHUB_WORKSPACE/99-default-settings package/emortal/default-settings/files/99-default-settings
 cp -f $GITHUB_WORKSPACE/banner package/base-files/files/etc/banner
 
 # 修改主题背景
